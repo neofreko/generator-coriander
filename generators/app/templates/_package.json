@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@neofreko/cilantro": "^0.0.1",
+    "@neofreko/coriander": "^0.0.1",
     "adbkit": "^2.11.0",
     "debug": "^3.1.0",
     "webdriverio": "^4.8.0",
