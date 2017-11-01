@@ -60,6 +60,11 @@ module.exports = class extends Generator {
       this.destinationPath("apk/README.md")
     );
 
+    this.fs.copy(
+      this.templatePath("_wdio.conf.js"),
+      this.destinationPath("wdio.conf.js")
+    );
+
     this.fs.copyTpl(
       this.templatePath("_package.json"),
       this.destinationPath("package.json"),
